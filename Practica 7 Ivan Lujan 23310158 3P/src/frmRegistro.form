@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="frmRegistro">
+  <grid id="27dc6" binding="panel2" layout-manager="GridLayoutManager" row-count="7" column-count="5" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="561" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="fb9bc" class="javax.swing.JLabel" binding="jlbDinamic">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="5" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Que desea registrar?"/>
+        </properties>
+      </component>
+      <component id="96af2" class="javax.swing.JLabel" binding="jlbDestinos">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Destinos disponibles"/>
+        </properties>
+      </component>
+      <component id="9dcf4" class="javax.swing.JLabel" binding="jlbHabitacion">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Tipo de Habitacion:"/>
+        </properties>
+      </component>
+      <component id="e6c8f" class="javax.swing.JComboBox" binding="jcbDestinos">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="4" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <model>
+            <item value="Sencilla"/>
+            <item value="Doble"/>
+            <item value="Suite"/>
+          </model>
+        </properties>
+      </component>
+      <component id="a2dda" class="javax.swing.JLabel" binding="jlbDias">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Dias"/>
+        </properties>
+      </component>
+      <component id="1d639" class="javax.swing.JScrollBar" binding="jsbDias">
+        <constraints>
+          <grid row="3" column="2" row-span="1" col-span="3" vsize-policy="6" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <orientation value="0"/>
+          <valueIsAdjusting value="false"/>
+        </properties>
+      </component>
+      <component id="87e50" class="javax.swing.JLabel" binding="jlbDiasEstancia">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="5" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Dias de estancia:"/>
+        </properties>
+      </component>
+      <component id="6154c" class="javax.swing.JLabel" binding="jlbPago">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Tipo de pago"/>
+        </properties>
+      </component>
+      <component id="17e5b" class="javax.swing.JRadioButton" binding="jrbUnPago">
+        <constraints>
+          <grid row="5" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Un solo pago"/>
+        </properties>
+      </component>
+      <component id="9e9c2" class="javax.swing.JRadioButton" binding="jrbSeisMeses">
+        <constraints>
+          <grid row="5" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="6 meses"/>
+        </properties>
+      </component>
+      <component id="193c4" class="javax.swing.JButton" binding="jbtRegistrar">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-9186209"/>
+          <text value="Registrar"/>
+        </properties>
+      </component>
+      <component id="c3d19" class="javax.swing.JButton" binding="jbtLimpiar">
+        <constraints>
+          <grid row="6" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Limpiar Campos"/>
+        </properties>
+      </component>
+      <component id="ba3dc" class="javax.swing.JButton" binding="jbtInformacion">
+        <constraints>
+          <grid row="6" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Mostrar Informacion"/>
+        </properties>
+      </component>
+      <component id="bb927" class="javax.swing.JButton" binding="jbtRegresar">
+        <constraints>
+          <grid row="6" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1874849"/>
+          <text value="Regresar"/>
+        </properties>
+      </component>
+      <scrollpane id="c8ae8" binding="jspDestinos">
+        <constraints>
+          <grid row="1" column="3" row-span="1" col-span="2" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="239f1" class="javax.swing.JList" binding="jlsDestinos">
+            <constraints/>
+            <properties>
+              <model>
+                <item value="Manzanillo"/>
+                <item value="Puerto Vallarta"/>
+                <item value="Mazamitla"/>
+                <item value="Oaxaca"/>
+                <item value="Mazatlan"/>
+              </model>
+            </properties>
+          </component>
+        </children>
+      </scrollpane>
+    </children>
+  </grid>
+  <buttonGroups>
+    <group name="buttonGroup1">
+      <member id="17e5b"/>
+      <member id="9e9c2"/>
+    </group>
+  </buttonGroups>
+</form>
